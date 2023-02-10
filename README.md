@@ -1,4 +1,11 @@
 # IDS721-Project2
-##project requirements
+## set-up
+1. create virtual enviroment
+python3 -m venv env  
+source env/bin/activate
+2. write core code
+write Makefile, app.py, requirements.txt
+write dockerfile and main.yml
 
+## project requirements
 <img width="500" alt="requirements" src="/project2.jpg">
