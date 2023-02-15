@@ -7,5 +7,10 @@ source env/bin/activate
 write Makefile, app.py, requirements.txt   
 write dockerfile and main.yml    
 3. git push   
+## 
+1. docker 
+
+2. ECR 
+
 ## project requirements
 <img width="500" alt="requirements" src="/project2.jpg">
