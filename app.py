@@ -4,8 +4,7 @@ app = Flask(__name__)
 @app.route('/Mon')
 def menu1():
     menu = """
-    Monday:
-- Breakfast: Scrambled eggs with spinach, tomatoes, and whole wheat toast.
+- Breakfast: Scrambled eggs with spinach, tomatoes, and whole wheat toast.                  
 - Lunch: Grilled chicken breast with roasted sweet potatoes and green beans.
 - Dinner: Lentil soup with a side salad.
 """
@@ -67,7 +66,7 @@ def menu7():
 
 @app.route('/')
 def hello():
-    return "Hello, this is my project 2"
+    return "Type Mon/Tue/Wed/Thu/Fri/Sat/Sun to see the menu"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
